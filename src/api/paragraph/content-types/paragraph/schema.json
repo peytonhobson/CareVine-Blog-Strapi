@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paragraphs",
+  "info": {
+    "singularName": "paragraph",
+    "pluralName": "paragraphs",
+    "displayName": "Paragraph"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    },
+    "Style": {
+      "type": "json"
+    }
+  }
+}
