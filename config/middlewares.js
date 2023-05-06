@@ -7,6 +7,7 @@ module.exports = ({ env }) => [
         directives: {
           'script-src': ["'self'", "'unsafe-inline'", 'cdn.jsdelivr.net'],
           'img-src': ["'self'", 'data:', 'cdn.jsdelivr.net', 'strapi.io', `${env('AWS_BUCKET_NAME')}.s3.${env('AWS_REGION')}.amazonaws.com`],
+          'media-src': ["'self'", 'data:', 'cdn.jsdelivr.net', 'strapi.io', `${env('AWS_BUCKET_NAME')}.s3.${env('AWS_REGION')}.amazonaws.com`],
         },
       }
     },
