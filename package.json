@@ -19,7 +19,7 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "yarn install; strapi start",
+    "start": "yarn install; yarn build; strapi start",
     "build": "strapi build",
     "strapi": "strapi",
     "postinstall": "yarn patch-package"
