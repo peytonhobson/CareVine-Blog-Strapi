@@ -1,10 +1,11 @@
 diff --git a/node_modules/@ckeditor/ckeditor5-ui/theme/globals/_reset.css b/node_modules/@ckeditor/ckeditor5-ui/theme/globals/_reset.css
-index aa63121..4c55174 100644
+index aa63121..5404619 100644
 --- a/node_modules/@ckeditor/ckeditor5-ui/theme/globals/_reset.css
 +++ b/node_modules/@ckeditor/ckeditor5-ui/theme/globals/_reset.css
-@@ -10,4 +10,5 @@
+@@ -10,4 +10,6 @@
  	width: auto;
  	height: auto;
  	position: static;
-+	background-color: white;
++	background: white !important;
++	background-color: white !important;
  }
