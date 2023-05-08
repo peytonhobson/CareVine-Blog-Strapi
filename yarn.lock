@@ -9,9 +9,9 @@
   dependencies:
     ckeditor5 ">=35.4.0"
 
-"@_sh/strapi-plugin-ckeditor@^2.0.4":
+"@_sh/strapi-plugin-ckeditor@2.0.4":
   version "2.0.4"
-  resolved "https://registry.npmjs.org/@_sh/strapi-plugin-ckeditor/-/strapi-plugin-ckeditor-2.0.4.tgz"
+  resolved "https://registry.yarnpkg.com/@_sh/strapi-plugin-ckeditor/-/strapi-plugin-ckeditor-2.0.4.tgz#3a4c94106f60d7ed7bcc990c9b2cc4c518fb2537"
   integrity sha512-X84SMADjHvCS5E1TOluq1w0xUbaYsDPltmPvExgkV5w/ZZCqBCJT1QAmRjtI0gqxFX7nsCKJk1rTi7qcoOZ+vw==
   dependencies:
     "@_sh/ckeditor5-font-with-picker" "^0.0.1"
