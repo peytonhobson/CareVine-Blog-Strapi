@@ -1,0 +1,13 @@
+diff --git a/node_modules/@ckeditor/ckeditor5-editor-classic/theme/classiceditor.css b/node_modules/@ckeditor/ckeditor5-editor-classic/theme/classiceditor.css
+index b037203..a2ebf5f 100644
+--- a/node_modules/@ckeditor/ckeditor5-editor-classic/theme/classiceditor.css
++++ b/node_modules/@ckeditor/ckeditor5-editor-classic/theme/classiceditor.css
+@@ -8,6 +8,8 @@
+ 	 If any element needs to be positioned with respect to the <body>, etc.,
+ 	 it must land outside of the `.ck-editor` in DOM. */
+ 	position: relative;
++	background: white !important;
++	background-color: white !important;
+ 
+ 	& .ck-editor__top .ck-sticky-panel .ck-toolbar {
+ 		/* https://github.com/ckeditor/ckeditor5-editor-classic/issues/62 */
