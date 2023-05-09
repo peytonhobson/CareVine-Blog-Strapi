@@ -1,0 +1,13 @@
+diff --git a/node_modules/@ckeditor/ckeditor5-code-block/theme/codeblock.css b/node_modules/@ckeditor/ckeditor5-code-block/theme/codeblock.css
+index 15f155a..adbd3f7 100644
+--- a/node_modules/@ckeditor/ckeditor5-code-block/theme/codeblock.css
++++ b/node_modules/@ckeditor/ckeditor5-code-block/theme/codeblock.css
+@@ -6,7 +6,7 @@
+ .ck-content pre {
+ 	padding: 1em;
+ 	color: hsl(0, 0%, 20.8%);
+-	background: hsla(0, 0%, 78%, 0.3);
++	background: white;
+ 	border: 1px solid hsl(0, 0%, 77%);
+ 	border-radius: 2px;
+ 

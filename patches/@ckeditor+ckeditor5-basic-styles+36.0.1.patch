@@ -1,0 +1,18 @@
+diff --git a/node_modules/@ckeditor/ckeditor5-basic-styles/theme/code.css b/node_modules/@ckeditor/ckeditor5-basic-styles/theme/code.css
+index e7769a7..5082b64 100644
+--- a/node_modules/@ckeditor/ckeditor5-basic-styles/theme/code.css
++++ b/node_modules/@ckeditor/ckeditor5-basic-styles/theme/code.css
+@@ -4,11 +4,11 @@
+  */
+ 
+ .ck-content code {
+-	background-color: hsla(0, 0%, 78%, 0.3);
++	background-color: white;
+ 	padding: .15em;
+ 	border-radius: 2px;
+ }
+ 
+ .ck.ck-editor__editable .ck-code_selected  {
+-	background-color: hsla(0, 0%, 78%, 0.5);
++	background-color: white;
+ }
